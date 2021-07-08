@@ -1,0 +1,47 @@
+@font-face {
+  font-family: Ramabhadra;
+  src: url(ramabhadra/Ramabhadra-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ramabhadra, sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: #fff;
+  font-size: 12px;
+  height: 35px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  margin: 0 5px;
+  text-decoration: none;
+}
+a img {
+  height: 20px;
+  margin-right: 10px;
+}
+.fb {
+  background: #3b5998;
+}
+.insta {
+  background: #7232bd;
+}
+.linkedin {
+  background: #0a66c2;
+}
+.google {
+  background: #a0a0a0;
+}
+.twitter {
+  background: #1da1f2;
+}
